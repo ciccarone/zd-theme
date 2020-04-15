@@ -1,10 +1,10 @@
-.pagination {
+.pagination ul {
   display: flex;
   @include list-unstyled();
   @include border-radius();
 }
 
-.page-link {
+.pagination a {
   position: relative;
   display: block;
   padding: $pagination-padding-y $pagination-padding-x;
@@ -29,7 +29,7 @@
   }
 }
 
-.page-item {
+.pagination a {
   &:first-child {
     .page-link {
       margin-left: 0;
@@ -70,4 +70,11 @@
 
 .pagination-sm {
   @include pagination-size($pagination-padding-y-sm, $pagination-padding-x-sm, $font-size-sm, $line-height-sm, $border-radius-sm);
+}
+
+.pagination-current {
+  padding: 7px;
+width: 30px;
+display: flex;
+justify-content: center;
 }

@@ -336,3 +336,13 @@ textarea.form-control {
     }
   }
 }
+
+form .required {
+  label {
+    &:after {
+      content: "*";
+      color: $red;
+      margin-left: 4px;
+    }
+  }
+}
