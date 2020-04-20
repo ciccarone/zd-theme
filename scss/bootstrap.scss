@@ -47,7 +47,7 @@
   background-color: #4c4c4c;
   box-shadow: 3px 4px 4px rgba(0,0,0,.2);
   &.fixed-top {
-    height: 150px;
+    height: 100px;
     &.navbar-expanded {
       height: 320px;
     }
@@ -103,7 +103,7 @@
 }
 
 .megamenu {
-    top: 150px;
+    top: 100px;
     display: none;
     z-index: 9;
     position: fixed;
@@ -671,7 +671,7 @@
 
 .secondary-nav {
   position: fixed;
-  top: 150px;
+  top: 100px;
   width: 100%;
   background-color: $gray-900;
   z-index: 3;
