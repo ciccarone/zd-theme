@@ -202,8 +202,9 @@
   }
   .col-12 {
     margin-bottom: 150px;
+    z-index: 9;
   }
-  background-color: #4c4c4c;
+  background-color: #383838;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -226,7 +227,7 @@
     img {
       width: 100%;
       position: relative;
-      top: 9px;
+      top: 0;
     }
 
     position: absolute;
